@@ -400,6 +400,8 @@
     <style>
         body {
             font-family: 'Nunito', sans-serif;
+            margin: 0 auto;
+            width: 80%;
         }
     </style>
 
@@ -408,7 +410,7 @@
 
 <body class="antialiased">
 
-    @livewire('counter')
+    @livewire('user-list')
     @livewireScripts
 </body>
 
